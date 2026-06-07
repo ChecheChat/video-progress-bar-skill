@@ -1,0 +1,37 @@
+preset:
+  name: "default-3x4-progress-bar"
+
+layout:
+  position: "top"
+  width_percent: 100
+  height_percent: 6.9
+  chapter_width_mode: "duration_ratio"
+  x_offset: 0
+  y_offset: 0
+
+progress:
+  mode: "cumulative_fill"
+  played_color: "#F4A6C1"
+  unplayed_color: "#A8A8A8"
+  opacity: 100
+
+text:
+  color: "#FFFFFF"
+  opacity: 100
+  font_family: "PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif"
+  font_file: ""
+  font_size: "auto"
+  font_weight: "bold"
+  max_title_length: 8
+
+separator:
+  enabled: true
+  width: 2
+  color: "#FFFFFF"
+  opacity: 60
+
+output:
+  preview: true
+  export_material: true
+  fallback_direct_composite: true
+  fps: 30
