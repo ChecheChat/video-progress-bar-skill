@@ -1,0 +1,14 @@
+{
+  "name": "video-progress-bar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate chapter progress bar previews and video overlays for edited videos.",
+  "type": "commonjs",
+  "scripts": {
+    "sample": "node scripts/generate-progress-bar.js examples/sample-input.yaml --preset presets/default-3x4.yaml --out output/sample",
+    "sample:preview": "node scripts/generate-progress-bar.js examples/sample-input.yaml --preset presets/default-3x4.yaml --out output/sample --no-video"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
