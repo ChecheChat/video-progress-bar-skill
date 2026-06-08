@@ -1,0 +1,17 @@
+video:
+  file: "my-video.mp4"
+  width: 1080
+  height: 1440
+  duration: "04:39"
+
+chapters:
+  - title: "引入"
+    start: "00:00"
+  - title: "MD"
+    start: "00:42"
+  - title: "HTML"
+    start: "01:36"
+  - title: "结构"
+    start: "02:45"
+  - title: "总结"
+    start: "03:58"

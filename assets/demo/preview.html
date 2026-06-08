@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Progress Bar Preview</title>
+  <style>
+    html, body {
+      width: 1080px;
+      height: 1440px;
+      margin: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+    .stage {
+      position: relative;
+      width: 1080px;
+      height: 1440px;
+      background: transparent;
+      font-family: PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif;
+    }
+    .bar {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 1080px;
+      height: 99px;
+      background: #A8A8A8;
+      overflow: hidden;
+    }
+    .played {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 0;
+      background: #F4A6C1;
+      animation: fill 279s linear forwards;
+    }
+    .chapter,
+    .separator {
+      position: absolute;
+      top: 0px;
+      height: 99px;
+      line-height: 99px;
+      font-size: 42px;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-align: center;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    .separator {
+      transform: translateX(-50%);
+      color: #FFFFFF;
+      opacity: 0.6;
+    }
+    @keyframes fill {
+      from { width: 0; }
+      to { width: 1080px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="bar"><div class="played"></div></div>
+    <div class="separator" style="left:163px;">|</div>
+      <div class="separator" style="left:372px;">|</div>
+      <div class="separator" style="left:639px;">|</div>
+      <div class="separator" style="left:922px;">|</div>
+    <div class="chapter" style="left:0px;width:163px;">引入</div>
+      <div class="chapter" style="left:163px;width:209px;">MD</div>
+      <div class="chapter" style="left:372px;width:267px;">HTML</div>
+      <div class="chapter" style="left:639px;width:283px;">结构</div>
+      <div class="chapter" style="left:922px;width:158px;">总结</div>
+  </div>
+</body>
+</html>

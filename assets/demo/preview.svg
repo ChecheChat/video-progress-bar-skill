@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <rect x="0" y="0" width="1080" height="1440" fill="transparent"/>
+  <rect x="0" y="0" width="1080" height="99" fill="#A8A8A8" opacity="1"/>
+  <rect x="0" y="0" width="540" height="99" fill="#F4A6C1" opacity="1"/>
+  <text x="163" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF" opacity="0.6">|</text>
+  <text x="372" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF" opacity="0.6">|</text>
+  <text x="639" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF" opacity="0.6">|</text>
+  <text x="922" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF" opacity="0.6">|</text>
+  <text x="81.5" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">引入</text>
+  <text x="267.5" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">MD</text>
+  <text x="505.5" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">HTML</text>
+  <text x="780.5" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">结构</text>
+  <text x="1001" y="64.2" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Hiragino Sans GB, Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">总结</text>
+</svg>
